@@ -13,11 +13,11 @@ def format_product_info(product_id: int, name: str, quantity: int, price: float)
     """
 
     return (
-        f"Product Information:\n"
-        f" ID      : {product_id}\n"
-        f" Name    : {name}\n"
-        f" Quantity: {quantity}\n"
-        f" Price   : ${price:.2f}\n"
+        "Product Information:\n"
+        f"ID      : {product_id}\n"
+        f"Name    : {name}\n"
+        f"Quantity: {quantity}\n"
+        f"Price   : ${price:.2f}\n"
     )
 
 
